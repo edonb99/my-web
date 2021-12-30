@@ -1,0 +1,84 @@
+.header {
+  display: block;
+  height: 550px;
+  margin-bottom: 0;
+}
+.header-container {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+.header-image {
+  opacity: 0.7;
+  transform: scale(1.15);
+  background-image: url("https://cms.outrider.org/sites/default/files/styles/hero_lg/public/2018-01/04_ARC_CL_BQ_USAF_140922-F-QP609-123_cruise.jpg?itok=GdLZyd1e");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 4s cubic-bezier(0.5, 0, 0.5, 1);
+  transform-origin: center;
+}
+
+.text-container {
+  padding-bottom: 0;
+  padding-top: 350px;
+  margin-bottom: 20px;
+
+  /* border: 4px solid orange; */
+}
+
+.text-content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  font-family: var(--font-family);
+
+  /* border: 2px solid blue; */
+}
+
+.text {
+  color: #f1f1f1;
+  max-width: 560px;
+
+  /* border: 3px solid green; */
+}
+
+.text span {
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.text h1 {
+  font-size: 4em;
+  margin: 0 0 15px;
+}
+
+.text p {
+  font-size: 22px;
+  line-height: 32px;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+@media only screen and (max-width: 540px) {
+  .text h1 {
+    font-weight: normal;
+    line-height: 1.086;
+    font-size: 2.75em;
+  }
+}
