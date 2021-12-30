@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Header, Section1, Sectionb, SectionC } from './components'
+import {Navbar, Header, Section1, Sectionb, SectionC, SectionD, SectionE } from './components'
 import './App.css'
 import './index.css'
 
@@ -12,6 +12,8 @@ const App = () => {
                 <Section1 />
                 <Sectionb />
                 <SectionC />
+                <SectionD />
+                <SectionE />
             </div>
         </div>
     );
