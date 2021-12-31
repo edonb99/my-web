@@ -1,12 +1,13 @@
 .section-container-text {
-  width: calc(90% + 20px);
-  margin-bottom: 70px;
+  /* width: calc(90% + 20px); */
+  width: 100%;
+  /* margin-bottom: 70px; */
   margin-left: auto;
   margin-right: auto;
 
-  order: 1;
+  order: initial;
   padding: 10px;
-  width: 33.33%;
+  /* width: 33.33%; */
 }
 
 .section-container-text > h3 {

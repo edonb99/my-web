@@ -40,11 +40,12 @@ a {
 }
 
 .section-container {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  max-width: 2000px;
-  /* width: calc(90% + 20px);
-  margin-bottom: 70px;
-  margin-left: auto;
-  margin-right: auto; */
+  max-width: 2000px; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  gap: 20px;
 }
