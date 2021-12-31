@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Header, Photo, TextSection } from './components'
+import {Navbar, Header1, Photo, TextSection } from './components'
 import './App.css'
 import './index.css'
 
@@ -7,7 +7,7 @@ const App = () => {
     return (
         <div className="App">
             <div className=''>
-                <Header />
+                <Header1 />
                 <Navbar />
 
                 <div className='section-container'>

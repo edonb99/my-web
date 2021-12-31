@@ -1,0 +1,108 @@
+.header {
+  min-height: 530px;
+  margin-bottom: 0;
+}
+.header-container {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  z-index: 0;
+}
+.header-container-image {
+  opacity: 0.7;
+  transform: scale(1.15);
+  background-image: url("https://cms.outrider.org/sites/default/files/styles/hero_lg/public/2018-01/04_ARC_CL_BQ_USAF_140922-F-QP609-123_cruise.jpg?itok=GdLZyd1e");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 4s cubic-bezier(0.5, 0, 0.5, 1);
+  transform-origin: center;
+
+  background-image: -webkit-linear-gradient(
+      bottom,
+      rgba(0, 0, 0, 100),
+      rgba(0, 0, 0, 0)
+    ),
+    url("https://cms.outrider.org/sites/default/files/styles/hero_lg/public/2018-01/04_ARC_CL_BQ_USAF_140922-F-QP609-123_cruise.jpg?itok=GdLZyd1e");
+}
+
+.header-container-text {
+  max-width: 560px;
+  /* margin-left: auto;
+  margin-right: auto;
+
+  order: initial; */
+
+  position: absolute;
+  top: 40%;
+  left: 5%;
+
+  font-family: var(--font-family);
+}
+
+.header-container-circle {
+  position: absolute;
+  top: 93%;
+  left: 1%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-container-circle p {
+  font-size: 1rem;
+  color: #fff;
+  padding-right: 20px;
+
+  line-height: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.header-container-circle svg {
+  width: 45px;
+  height: 45px;
+  stroke: #fff;
+  fill: transparent;
+  stroke-width: 1px;
+  transform-origin: center;
+
+  /* opacity: 0;
+  stroke: #fff;
+  stroke-width: 1px;
+  stroke-dashoffset: 142px;
+  stroke-dasharray: 142px;
+  fill: transparent;
+  transform-origin: center; */
+}
+.header-container-text > h3 {
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.header-container-text > h1 {
+  color: #fff;
+  font-size: 4em;
+  margin: 0 0 15px;
+}
+.header-container-text > p {
+  color: #fff;
+  font-size: 22px;
+  line-height: 32px;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
