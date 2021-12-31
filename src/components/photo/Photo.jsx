@@ -5,7 +5,7 @@ const Photo = (props) => {
     return (
             <div className=" section-container-img"  style={props.style}>
                 <a href="/#" target="">
-                    <div className="section-img">
+                    <div className="section-img" style={props.s}>
                         <img src={props.logo} alt=""></img>
                     </div>
                     <div className="section-text">
