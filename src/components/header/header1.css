@@ -102,6 +102,12 @@
   margin-inline-end: 0px;
 }
 
+.header-container-text h1::selection,
+p::selection {
+  color: #fff;
+  background: rgba(234, 86, 0, 0.99);
+}
+
 @media only screen and (max-width: 540px) {
   .header-container-text h1 {
     font-weight: normal;

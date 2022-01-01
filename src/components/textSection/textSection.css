@@ -7,6 +7,12 @@
   padding: 10px;
 }
 
+.section-container-text p::selection,
+h3::selection {
+  color: #fff;
+  background: rgba(234, 86, 0, 0.99);
+}
+
 .section-container-text > h3 {
   height: 46px;
   color: #fff;
@@ -24,4 +30,12 @@
   color: #fff;
   font-size: 23px;
   line-height: 32px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section-container-text {
+    width: 100%;
+    margin: 0 auto;
+    grid-column: span 3;
+  }
 }

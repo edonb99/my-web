@@ -56,6 +56,12 @@
   color: #fff;
 }
 
+.section-text p::selection,
+h1::selection {
+  color: #fff;
+  background: rgba(234, 86, 0, 0.99);
+}
+
 .section-sign {
   position: absolute;
   bottom: 30px;
