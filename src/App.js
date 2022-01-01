@@ -72,9 +72,8 @@ const App = () => {
                     <Photo style={{'grid-column':'span 1', order:'30' }} p={'Article'} h1={'The Gendered Impacts of the Hiroshima & Nagasaki Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/near_square_md/public/2020-07/GettyImages-53313850-crop%282%29_0.jpeg?h=5f2cda5c&itok=38Q1vuWt'} />
                     <Photo style={{'grid-column':'span 1', order:'31' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
                     <Photo style={{'grid-column':'span 1', order:'32' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
-
                 </div>
-
+                
                 <Footer />
                 <Section />
                 

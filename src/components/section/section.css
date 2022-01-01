@@ -1,5 +1,83 @@
-.section-container {
+.s-section-container {
   min-height: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.s-section-container-image {
+  background-image: url("https://cms.outrider.org/sites/default/files/styles/wide_md/public/2019-04/GettyImages-1132714898.jpg?h=2992ba0a&itok=4q8ORk_W");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  opacity: 0.75;
+}
+
+.s-section-container-image:hover {
+  transform: scale(1.15);
+  transition: all 4s cubic-bezier(0.5, 0, 0.5, 1);
+  transform-origin: center;
+  animation-delay: 0.5s;
+  opacity: 0.5;
+}
+
+.s-section-container-text {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.s-section-container-text h1 {
+  color: #fff;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.s-section-container-text hr {
+  width: 0;
+  margin: 0 auto;
+  border: 1px solid #ea5600;
+}
+
+.s-section-container:hover hr {
+  width: 75px;
+  height: 1px;
+  margin: 0 auto;
+  transition: width 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.s-section-container-text button {
+  background: #fff;
+  color: #ea5600;
+  font-size: 0.75rem;
+  padding: 15px 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.s-section-container-text button:hover {
+  color: #fff;
+  background: #ea5600;
+  cursor: pointer;
 }
