@@ -1,0 +1,93 @@
+.footer-container {
+  margin-top: 68px;
+  margin-bottom: 68px;
+}
+
+.footer-container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.footer-container-text p {
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer-container-text h1 {
+  font-size: 40px;
+  line-height: 54px;
+  margin-bottom: 20px;
+}
+
+.footer-container-form {
+  padding: 30px 0;
+}
+
+.footer-container-form input {
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+  color: #f1f1f1;
+  height: 50px;
+  width: 450px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+.footer-container-form button {
+  color: #fff;
+  background: #ea5600;
+  font-size: 0.75rem;
+  padding: 15px 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+
+  border-radius: 50%;
+}
+
+.fa:hover {
+  background: #000;
+  color: #fff;
+  border: 3px solid #fff;
+}
+
+.fa-twitter {
+  background: #fff;
+  color: #000;
+}
+
+.fa-facebook {
+  background: #fff;
+  color: #000;
+}
+
+.fa-instagram {
+  background: #fff;
+  color: #000;
+}
+
+.fa-linkedin {
+  background: #fff;
+  color: #000;
+}

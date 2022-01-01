@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Header1, Photo, TextSection } from './components'
+import {Navbar, Header1, Photo, TextSection, Footer } from './components'
 import './App.css'
 import './index.css'
 
@@ -74,6 +74,9 @@ const App = () => {
                     <Photo style={{'grid-column':'span 1', order:'26' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
 
                 </div>
+
+                <Footer />
+                
              </div>
         </div>
     );
