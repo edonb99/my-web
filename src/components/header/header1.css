@@ -37,11 +37,6 @@
 
 .header-container-text {
   max-width: 560px;
-  /* margin-left: auto;
-  margin-right: auto;
-
-  order: initial; */
-
   position: absolute;
   top: 40%;
   left: 5%;
@@ -105,4 +100,12 @@
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+@media only screen and (max-width: 540px) {
+  .header-container-text h1 {
+    font-weight: normal;
+    line-height: 1.086;
+    font-size: 2.75em;
+  }
 }
