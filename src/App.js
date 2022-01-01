@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Header1, Photo, TextSection, Footer } from './components'
+import {Navbar, Header1, Photo, TextSection, Footer, Section } from './components'
 import './App.css'
 import './index.css'
 
@@ -65,17 +65,18 @@ const App = () => {
                     <Photo style={{'grid-column':'span 1', order:'25' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
                     <Photo style={{'grid-column':'span 1', order:'26' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
 
-                    <Photo style={{'grid-column':'span 1', order:'24' }} p={'Article'} h1={'Project Iceworm'} logo={'https://cms.outrider.org/sites/default/files/styles/near_square_md/public/2018-05/GettyImages-179675095.jpg?h=0edc127b&itok=1N0xqRBM'} />
-                    <Photo style={{'grid-column':'span 1', order:'25' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
-                    <Photo style={{'grid-column':'span 1', order:'26' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
+                    <Photo style={{'grid-column':'span 1', order:'27' }} p={'Article'} h1={'Project Iceworm'} logo={'https://cms.outrider.org/sites/default/files/styles/near_square_md/public/2018-05/GettyImages-179675095.jpg?h=0edc127b&itok=1N0xqRBM'} />
+                    <Photo style={{'grid-column':'span 1', order:'28' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
+                    <Photo style={{'grid-column':'span 1', order:'29' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
 
-                    <Photo style={{'grid-column':'span 1', order:'24' }} p={'Article'} h1={'The Gendered Impacts of the Hiroshima & Nagasaki Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/near_square_md/public/2020-07/GettyImages-53313850-crop%282%29_0.jpeg?h=5f2cda5c&itok=38Q1vuWt'} />
-                    <Photo style={{'grid-column':'span 1', order:'25' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
-                    <Photo style={{'grid-column':'span 1', order:'26' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
+                    <Photo style={{'grid-column':'span 1', order:'30' }} p={'Article'} h1={'The Gendered Impacts of the Hiroshima & Nagasaki Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/near_square_md/public/2020-07/GettyImages-53313850-crop%282%29_0.jpeg?h=5f2cda5c&itok=38Q1vuWt'} />
+                    <Photo style={{'grid-column':'span 1', order:'31' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
+                    <Photo style={{'grid-column':'span 1', order:'32' }} p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
 
                 </div>
 
                 <Footer />
+                <Section />
                 
              </div>
         </div>
