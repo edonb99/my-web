@@ -13,9 +13,12 @@ const Photo = (props) => {
                         <h1>{props.h1}</h1>
                     </div>
                     <div className="section-sign">
-                        <button className="section-btn">
-                            <span></span>
-                        </button>   
+                            <svg>
+                                <circle cx='50%' cy="50%" r="49%">
+                                <i class="fa fa-play"></i>
+                                </circle>
+                            </svg>
+                      
                     </div>
                 </a>
             </div>

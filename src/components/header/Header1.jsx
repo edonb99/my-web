@@ -10,7 +10,9 @@ const Header1 = () => {
                         <div className="header-container-circle">
                             <p>Explore</p>
                             <svg>
-                                <circle cx='50%' cy="50%" r="49%"></circle>
+                                <circle cx='50%' cy="50%" r="49%">
+                                <i class="fa fa-play "></i>
+                                </circle>
                             </svg>
                         </div>
                         <h3>Challenge</h3>

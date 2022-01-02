@@ -107,7 +107,9 @@ p::selection {
   color: #fff;
   background: rgba(234, 86, 0, 0.99);
 }
-
+.fa-play {
+  background-color: white;
+}
 @media only screen and (max-width: 540px) {
   .header-container-text h1 {
     font-weight: normal;

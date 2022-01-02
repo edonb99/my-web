@@ -68,6 +68,17 @@ h1::selection {
   right: 30px;
 }
 
+.section-sign svg {
+  width: 45px;
+  height: 45px;
+  fill: transparent;
+  stroke-width: 1px;
+  stroke: #ea5600;
+}
+.fa-play {
+  background-color: white;
+}
+
 .section-btn {
   color: #fff;
   background: rgba(0, 0, 0, 0.1);
