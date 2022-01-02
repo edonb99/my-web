@@ -41,6 +41,10 @@
   cursor: pointer;
 }
 
+.section-container-img:hover .section-text h1 {
+  color: lightgray;
+}
+
 .section-text p {
   color: #ea5600;
   text-transform: uppercase;
