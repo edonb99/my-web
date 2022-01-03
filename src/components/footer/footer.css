@@ -44,6 +44,12 @@
   margin-right: 30px;
 }
 
+.footer-container-form input::placeholder {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: sans-serif;
+}
+
 .footer-container-form button {
   color: #fff;
   background: #ea5600;

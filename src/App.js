@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Header1, Footer, Section, Content } from './components'
+import { Navbar, Header1, Footer, Section, Content, Footer2 } from './components'
 import './App.css'
 import './index.css'
 
@@ -11,8 +11,8 @@ const App = () => {
                 <Content />
                 <Footer />
                 <Section />
-                
-             </div>
+                <Footer2 />
+        </div>
     );
 }
 
