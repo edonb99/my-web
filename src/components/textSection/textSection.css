@@ -18,6 +18,8 @@ h3::selection {
   color: #fff;
   font-size: 35px;
   font-family: adobe-garamond-pro, serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .section-container-text hr {

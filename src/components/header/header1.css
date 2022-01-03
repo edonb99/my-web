@@ -41,7 +41,9 @@
   top: 40%;
   left: 5%;
 
-  font-family: var(--font-family);
+  font-family: adobe-garamond-pro, serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .header-container-circle {

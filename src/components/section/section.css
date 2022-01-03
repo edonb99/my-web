@@ -39,6 +39,9 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .s-section-container-text h1 {

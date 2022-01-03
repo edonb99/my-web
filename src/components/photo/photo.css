@@ -39,10 +39,13 @@
   left: 30px;
   width: calc(100% - 110px);
   cursor: pointer;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .section-container-img:hover .section-text h1 {
-  color: lightgray;
+  color: #d4d3d3;
 }
 
 .section-text p {
