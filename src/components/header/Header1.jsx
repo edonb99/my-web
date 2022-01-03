@@ -9,11 +9,9 @@ const Header1 = () => {
                     <div className="header-container-text">
                         <div className="header-container-circle">
                             <p>Explore</p>
-                            <svg>
                                 <circle cx='50%' cy="50%" r="49%">
-                                <i class="fa fa-play "></i>
+                                <i class="fa fa-arrow-down"></i>
                                 </circle>
-                            </svg>
                         </div>
                         <h3>Challenge</h3>
                         <h1>Nuclear Weapons</h1>

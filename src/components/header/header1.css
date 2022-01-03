@@ -63,22 +63,27 @@
   font-weight: 300;
 }
 
-.header-container-circle svg {
-  width: 45px;
-  height: 45px;
-  stroke: #fff;
-  fill: transparent;
-  stroke-width: 1px;
-  transform-origin: center;
-
-  /* opacity: 0;
-  stroke: #fff;
-  stroke-width: 1px;
-  stroke-dashoffset: 142px;
-  stroke-dasharray: 142px;
-  fill: transparent;
-  transform-origin: center; */
+.header-container-circle i {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px;
+  margin: 0;
+  font-size: 15px;
 }
+
+.header:hover .header-container-circle i {
+  background-color: transparent;
+  color: transparent;
+  border: 1px solid #fff;
+  padding: 15px;
+  margin: 0;
+  font-size: 15px;
+  cursor: pointer;
+  transform-origin: center;
+  transition: all 0.3s;
+}
+
 .header-container-text > h3 {
   margin-bottom: 10px;
   font-size: 0.75rem;
