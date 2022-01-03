@@ -71,7 +71,7 @@
   background-color: #ea5600;
 }
 
-.fa {
+.footer2-container-icons .fa {
   padding: 5px;
   font-size: 15px;
   text-align: center;
@@ -81,19 +81,19 @@
   color: transparent;
 }
 
-.fa:hover {
+.footer2-container-icons .fa:hover {
   background: #000;
   color: #ea5600;
   border: transparent;
 }
 
-.fa-twitter {
+.footer2-container-icons .fa-twitter {
   background: transparent;
   color: #fff;
   border: transparent;
 }
 
-.fa-facebook {
+.footer2-container-icons .fa-facebook {
   background: transparent;
   color: #fff;
   border: transparent;
@@ -101,13 +101,13 @@
   padding-right: 10px;
 }
 
-.fa-instagram {
+.footer2-container-icons .fa-instagram {
   background: transparent;
   color: #fff;
   border: transparent;
 }
 
-.fa-linkedin {
+.footer2-container-icons .fa-linkedin {
   background: transparent;
   color: #fff;
   border: transparent;

@@ -15,7 +15,7 @@ const Footer2 = () => {
                     <a href="/#">Contact Us</a>
                     <a href="/#">608.237.3489</a>
                 </div>
-                <div className="footer-container-icons">
+                <div className="footer2-container-icons">
                     <a href="#" className="fa fa-twitter"></a>
                     <a href="#" className="fa fa-facebook"></a>
                     <a href="#" className="fa fa-instagram"></a>
