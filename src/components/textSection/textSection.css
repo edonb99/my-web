@@ -61,3 +61,18 @@ h3::selection {
 .padding-80 {
   padding: 80px;
 }
+
+@media only screen and (max-width: 540px) {
+  .span-1 {
+    grid-column: span 3;
+  }
+  .span-2 {
+    grid-column: span 3;
+  }
+  .section-container-text p {
+    font-size: 18px;
+  }
+  .padding-80 {
+    padding: 0;
+  }
+}
