@@ -2,11 +2,23 @@ import React from 'react';
 import { Photo, TextSection } from './index'
 
 const Content = () => {
+
+    const resp = {
+        '@media (max-width: 540px)': {
+          'display': 'flex',
+          'flex-direction': 'row',
+          'flex-wrap':'nowrap',
+          width: '100%',
+          overflow: 'hidden',
+          'overflow-x': 'scroll'
+        },
+      };
+
     return (
         <div>
         <div className='section-container'>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gridColumn: 'span 3', gap: '20px'}}>
+        <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gridColumn: 'span 3', gap: '20px'}}>
             <Photo className='span-2 ' h1={'How to Dismatle a Nuclear Bomb'} logo={'https://cms.outrider.org/sites/default/files/styles/near_square_md/public/2020-05/Screen%20Shot%202019-03-28%20at%202.42.27%20PM.png?h=8f74817f&amp;itok=vKIgW4LX'} />
             <TextSection p={'It is possible to dismantle our nuclear weapons. Over the years, the U.S. and Russia have reduced their arsenals to less than one-sixth of what they were during the Cold War. The current security climate threatens to undo all that work, but we can choose another path. Learn how you can help.'}
                     h3={'Solutions'} className='span-1 order-1'/>
@@ -61,7 +73,7 @@ const Content = () => {
         <Photo className='span-full order-1' p={'Timeline'} h1={'Nuclear History: The Current Era'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2018-02/ARC_CL_BQ_GTY_535308894_master.jpg?h=973df0d5&itok=9XApdCTQ'} />
         <Photo className='span-full order-1' p={'Timeline'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gridColumn: 'span 3', gap: '20px'}}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gridColumn: 'span 3', gap: '20px', resp}}>
             <Photo className='span-1 order-1' p={'Article'} h1={'Sabotaging the Nazi Bomb'} logo={'https://cms.outrider.org/sites/default/files/styles/near_square_md/public/2018-02/ARC_CL_BQ_NIA_sleigh.jpeg?itok=XW5PYxZm'} />
             <Photo className='span-1 order-1' p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
             <Photo className='span-1 order-1' p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />

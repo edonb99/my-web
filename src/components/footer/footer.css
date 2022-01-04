@@ -79,33 +79,11 @@
   height: 40px;
   width: 40px;
   background-color: #fff;
-  border-radius: 50%;
+  color: #000;
 }
 
 .fa:hover {
   background: #000;
   color: #fff;
   border: 3px solid #fff;
-}
-
-.fa-twitter {
-  background: #fff;
-  color: #000;
-}
-
-.fa-facebook {
-  background: #fff;
-  color: #000;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.fa-instagram {
-  background: #fff;
-  color: #000;
-}
-
-.fa-linkedin {
-  background: #fff;
-  color: #000;
 }
