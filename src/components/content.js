@@ -1,19 +1,8 @@
 import React from 'react';
-import { Photo, TextSection } from './index'
+import { Photo, TextSection } from './index';
+import articles from '../data';
 
 const Content = () => {
-
-    const resp = {
-        '@media (max-width: 540px)': {
-          'display': 'flex',
-          'flex-direction': 'row',
-          'flex-wrap':'nowrap',
-          width: '100%',
-          overflow: 'hidden',
-          'overflow-x': 'scroll'
-        },
-      };
-
     return (
         <div>
         <div className='section-container'>
@@ -73,7 +62,10 @@ const Content = () => {
         <Photo className='span-full order-1' p={'Timeline'} h1={'Nuclear History: The Current Era'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2018-02/ARC_CL_BQ_GTY_535308894_master.jpg?h=973df0d5&itok=9XApdCTQ'} />
         <Photo className='span-full order-1' p={'Timeline'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gridColumn: 'span 3', gap: '20px', resp}}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gridColumn: 'span 3', gap: '20px'}}>
+            {articles.map(article => (
+                <Photo h1={article.name} p={article.content} />
+            ))}
             <Photo className='span-1 order-1' p={'Article'} h1={'Sabotaging the Nazi Bomb'} logo={'https://cms.outrider.org/sites/default/files/styles/near_square_md/public/2018-02/ARC_CL_BQ_NIA_sleigh.jpeg?itok=XW5PYxZm'} />
             <Photo className='span-1 order-1' p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
             <Photo className='span-1 order-1' p={'Article'} h1={'Hiroshima & Nagasaki: the 76th Anniversary of the Atomic Bombings'} logo={'https://cms.outrider.org/sites/default/files/styles/wide_lg/public/2020-07/GettyImages-78964772.jpg?h=34e32d37&itok=pxClM1Ok'} />
