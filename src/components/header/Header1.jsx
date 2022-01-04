@@ -2,7 +2,7 @@ import React from 'react';
 import './header1.css'
 const Header1 = () => {
     return (
-        <div className="header">
+        <div className="header" style={{ overflow: 'hidden', position: 'relative'}}>
             <div className="header-container">
                 <div className="header-container-image">
                 </div>

@@ -96,3 +96,23 @@ h1::selection {
   transform-origin: center;
   transition: all 0.3s;
 }
+
+.span-full {
+  grid-column: span 3;
+}
+
+.span-1 {
+  grid-column: span 1;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.gap-10px {
+  gap: 10px;
+}

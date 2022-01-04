@@ -14,10 +14,12 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-container-icons">
-                    <a href="#" className="fa fa-twitter"></a>
-                    <a href="#" className="fa fa-facebook"></a>
-                    <a href="#" className="fa fa-instagram"></a>
-                    <a href="#" className="fa fa-linkedin"></a>
+                    <a href="/" className="fa-icon-background">
+                        <span className="fa fa-twitter"></span>
+                    </a>
+                    <a href="#" className="fa fa-facebook fa-icon-background"></a>
+                    <a href="#" className="fa fa-instagram fa-icon-background"></a>
+                    <a href="#" className="fa fa-linkedin fa-icon-background"></a>
                 </div>
             </div>  
         </div>

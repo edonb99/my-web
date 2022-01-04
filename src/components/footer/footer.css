@@ -75,6 +75,13 @@
   border: 3px solid #fff;
 }
 
+.fa-icon-background {
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
 .fa:hover {
   background: #000;
   color: #fff;
